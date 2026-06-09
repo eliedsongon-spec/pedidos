@@ -369,7 +369,7 @@ const sb = createClient(SUPABASE_URL, SUPABASE_KEY);
 // ============================================================
 // IMPORTANTE: cole aqui a sua Service Role Key do Supabase
 // Painel → Settings → API → service_role (secret)
-const SUPABASE_SERVICE_KEY = 'COLE_AQUI_SUA_SERVICE_ROLE_KEY';
+const SUPABASE_SERVICE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ3dXR0anFzYWJ2aWV5bnBrZG1sIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MDkzNjY5OSwiZXhwIjoyMDk2NTEyNjk5fQ.YxNIh3dAd-kVgTsf0NI7vi5CggM47T_XXIZp35hF13k';
 
 async function criarOuAtualizarUsuario({ email, senha, nome, role, tipo, cadastroId }) {
   try {
